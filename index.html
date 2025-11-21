@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Card - Arun Dabi</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            font-family: 'Poppins', sans-serif;
+        }
+        .card {
+            width: 380px;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            color: #fff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        }
+        .card h2 {
+            margin: 10px 0 5px;
+            font-size: 28px;
+            font-weight: 600;
+        }
+        .card h4 {
+            margin: 0;
+            font-size: 18px;
+            color: #e0e0e0;
+        }
+        .icons a {
+            margin: 12px;
+            font-size: 30px;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .icons a:hover {
+            color: #000;
+        }
+        .summary {
+            margin-top: 18px;
+            color: #f5f5f5;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Arun Dabi</h2>
+        <h4>Web Developer</h4>
+
+        <div class="icons">
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <p class="summary">
+            Passionate Web Developer skilled in creating responsive and user-friendly websites.
+            Focused on clean code, modern UI designs, and continuous learning.
+        </p>
+    </div>
+</body>
+</html>
